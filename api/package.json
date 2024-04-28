@@ -1,0 +1,30 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/index.js",
+    "scripts": {
+        "start": "tsx --no-cache ./src/index.ts",
+        "dev": "tsx watch --no-cache ./src/index.ts --port 6969"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@types/argparse": "^2.0.15",
+        "@types/cors": "^2.8.17",
+        "@types/express": "^4.17.21",
+        "argparse": "^2.0.1",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "express": "^4.18.3",
+        "uuid-by-string": "^4.0.0",
+        "zod": "^3.22.4",
+        "zod-express-middleware": "^1.4.0"
+    },
+    "type": "module",
+    "devDependencies": {
+        "tsx": "^4.7.1",
+        "typescript": "^5.4.3"
+    }
+}
